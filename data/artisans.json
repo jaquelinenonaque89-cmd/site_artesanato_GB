@@ -1,0 +1,26 @@
+[
+  {
+    "id": "madu-balde",
+    "name": "Madu Baldé",
+    "location": "Quinara",
+    "craft": "Cestaria",
+    "bio": "Madu trabalha com técnicas tradicionais de tecelagem de palha, transmitidas por gerações.",
+    "images": ["../img/placeholder.svg"]
+  },
+  {
+    "id": "aminata-djau",
+    "name": "Aminata Djau",
+    "location": "Bissau",
+    "craft": "Têxteis e tingimento natural",
+    "bio": "Aminata preserva padrões locais e usa corantes naturais em seus tecidos.",
+    "images": ["../img/placeholder.svg"]
+  },
+  {
+    "id": "jose-camara",
+    "name": "José Camará",
+    "location": "Bolama",
+    "craft": "Escultura em madeira",
+    "bio": "José cria esculturas inspiradas em figuras mitológicas e na fauna local.",
+    "images": ["../img/placeholder.svg"]
+  }
+]

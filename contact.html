@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto — Artesanato da Guiné-Bissau</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎨 Artesanato da Guiné-Bissau</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="artisans.html">Artesãos</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" href="partners.html">Parcerias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contacto</h2>
+      <p class="lead mb-5">Estamos aqui para conversar sobre parcerias, encomendas, oficinas ou para que partilhe histórias. Escolha o meio mais adequado para si.</p>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm text-center h-100">
+            <div class="card-body">
+              <h3 class="card-title">Email</h3>
+              <p><a href="mailto:contato@artesanatoguinebissau.org" class="btn btn-primary">contato@artesanatoguinebissau.org</a></p>
+              <p class="small text-muted">Tempo de resposta: 2-3 dias úteis</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm text-center h-100">
+            <div class="card-body">
+              <h3 class="card-title">Telefone e WhatsApp</h3>
+              <p class="h5">+245 956 573 155</p>
+              <p class="small text-muted">Disponível: seg-sex, 9h-17h (hora local)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm text-center h-100">
+            <div class="card-body">
+              <h3 class="card-title">Endereço</h3>
+              <p class="small">Rua da Cultura, Bissau<br>Guiné-Bissau</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm text-center h-100">
+            <div class="card-body">
+              <h3 class="card-title">Redes sociais</h3>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="https://instagram.com/artesanatoguinebissau" class="btn btn-outline-primary btn-sm">Instagram</a>
+                <a href="https://facebook.com/artesanatoguinebissau" class="btn btn-outline-primary btn-sm">Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <h3 class="mb-4">Envie-nos uma mensagem</h3>
+      <p class="lead mb-4">Preencha o formulário abaixo com o seu contacto e assunto. Responderemos assim que possível.</p>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <form action="https://formspree.io/f/your-form-id" method="POST" class="needs-validation">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome *</label>
+              <input id="name" name="name" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail *</label>
+              <input id="email" type="email" name="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Telefone (opcional)</label>
+              <input id="phone" type="tel" name="phone" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Assunto *</label>
+              <select id="subject" name="subject" class="form-select" required>
+                <option value="">Selecione um assunto</option>
+                <option value="encomenda">Encomenda ou compra</option>
+                <option value="oficina">Participação em oficina</option>
+                <option value="parceria">Proposta de parceria</option>
+                <option value="historia">Partilhar história ou foto</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem *</label>
+              <textarea id="message" name="message" rows="6" class="form-control" required></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-lg" type="submit">Enviar mensagem</button>
+          </form>
+
+          <p class="small text-muted mt-4">Privacidade: respeitamos os dados partilhados. Não divulgamos contatos sem permissão expressa.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">© 2026 Artesanato da Guiné-Bissau</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
